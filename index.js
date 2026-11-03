@@ -25,7 +25,8 @@ client.once("clientReady", async () => {
 });
 
 client.on("messageCreate", async (msg) => {
-    if (msg.channelId = autoPinChannelID && allowedMsgTypes.includes(msg.type)) {
+    if (msg.channelId == autoPinChannelID && allowedMsgTypes.includes(msg.type)) {
+        // console.log(msg.channelId);
         // console.log(msg.type);
         msg.pin();
     }
