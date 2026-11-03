@@ -2,6 +2,7 @@ const { Client, GatewayIntentBits, ActivityType } = require("discord.js");
 require("dotenv").config();
 
 const token = process.env.TOKEN;
+const autoPinChannelID = process.env.AUTOPIN_CHANNEL_ID;
 
 const client = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages],
@@ -24,8 +25,10 @@ client.once("clientReady", async () => {
 });
 
 client.on("messageCreate", async (msg) => {
-    console.log(msg.type);
-    if (allowedMsgTypes.includes(msg.type)) msg.pin();
+    if (msg.channelId = autoPinChannelID && allowedMsgTypes.includes(msg.type)) {
+        // console.log(msg.type);
+        msg.pin();
+    }
 });
 
 client.login(token);
