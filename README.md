@@ -2,6 +2,10 @@
 A silly lil auto pin discord bot :3
 
 ![discord.js](https://cdn.jsdelivr.net/gh/JMcrafter26/badges@main/src/assets/built-with/discord-js/cozy.svg)
+
+| [EN / English](./README_FR.md) | [FR / Français](./README_FR.md) |
+| --- | --- |
+
 ## Setup
 **What you'll need** :
 - A discord bot (read [Discord Bot](#discord-bot))
