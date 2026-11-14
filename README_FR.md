@@ -11,6 +11,13 @@ Un piti bot discord d'auto pin :3
 - Un bot discord (voir [Discord Bot](#bot-discord))
 - Node.js (voir [ici](https://nodejs.org/en/download) pour le télécharger si besoin)
 
+### Cloner le repo
+Commencer par clone le repo là où vous comptez run le bot avec :
+
+`git clone https://github.com/LukeyWookey/SillyDuckyPins.git`
+
+Ou en téléchargeant le [zip](https://github.com/LukeyWookey/SillyDuckyPins/archive/refs/heads/master.zip) & en le dézippant.
+
 ### Bot Discord
 > [!NOTE]
 >

@@ -11,6 +11,13 @@ A silly lil auto pin discord bot :3
 - A discord bot (read [Discord Bot](#discord-bot))
 - Node.js (can be downloaded [here](https://nodejs.org/en/download) if you don't have it)
 
+### Cloning the repo
+Start by cloning the repo wherever you plan on running the bot with either :
+
+`git clone https://github.com/LukeyWookey/SillyDuckyPins.git`
+
+Or by downloading the [zip](https://github.com/LukeyWookey/SillyDuckyPins/archive/refs/heads/master.zip) and unzipping it.
+
 ### Discord Bot
 > [!NOTE]
 >
